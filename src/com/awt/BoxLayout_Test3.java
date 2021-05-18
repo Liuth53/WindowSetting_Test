@@ -1,3 +1,5 @@
+package com.awt;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -5,7 +7,7 @@ import java.awt.event.WindowEvent;
 
 public class BoxLayout_Test3 {
     public static void main(String[] args) {
-        Frame frame = new Frame("BoxLayout_Test");
+        Frame frame = new Frame("com.awt.BoxLayout_Test");
         //创建水平排列Box容器
         Box hbox = Box.createHorizontalBox();
         //往当前容器中添加按钮，在按钮之间添加分割

@@ -1,3 +1,5 @@
+package com.awt;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -5,7 +7,7 @@ import java.awt.event.WindowEvent;
 
 
 public class BasicComponent_Test {
-    Frame frame = new Frame("BasicComponent_Test");
+    Frame frame = new Frame("com.awt.BasicComponent_Test");
     TextArea ta = new TextArea(5,20);
 
     Choice colorchoose = new Choice();
@@ -60,10 +62,7 @@ public class BasicComponent_Test {
         });
         frame.pack();
         frame.setVisible(true);
-
-
     }
-
 
 
     public static void main(String[] args) {

@@ -1,8 +1,10 @@
+package com.awt;
+
 import java.awt.*;
 
 public class GridLayout_Test {
     public static void main(String[] args) {
-        Frame frame = new Frame("Test GridLayout on Window");
+        Frame frame = new Frame("Test GridLayout on com.awt.Window");
         //创建Panel对象，存放一个TextFiled组件
         Panel p = new Panel();
         p.add(new TextField(30));       //容纳字符数

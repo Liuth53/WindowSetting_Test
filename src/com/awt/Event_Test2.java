@@ -1,10 +1,12 @@
+package com.awt;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
 public class Event_Test2 {
     public static void main(String[] args) {
-        Frame frame = new Frame("Event_Test2");
+        Frame frame = new Frame("com.awt.Event_Test2");
         //事件源
         TextField tf = new TextField(30);
         Choice names = new Choice();
@@ -44,6 +46,13 @@ public class Event_Test2 {
             }
         });
 
+        frame.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+//                super.windowClosing(e);
+                System.exit(0);
+            }
+        });
 
 
 

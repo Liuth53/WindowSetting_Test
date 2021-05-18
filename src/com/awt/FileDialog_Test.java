@@ -1,10 +1,12 @@
+package com.awt;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FileDialog_Test {
     public static void main(String[] args) {
-        Frame frame = new Frame("FileDialog_Test");
+        Frame frame = new Frame("com.awt.FileDialog_Test");
         //创建两个对话框，模式与非模式
         FileDialog f1 = new FileDialog(frame,"Choose LoadFile",FileDialog.LOAD);
         FileDialog f2 = new FileDialog(frame,"Choose SavePath",FileDialog.SAVE);

@@ -1,8 +1,10 @@
+package com.awt;
+
 import java.awt.*;
 
 public class ScrollPane_Test {
     public static void main(String[] args) {
-        Frame frame = new Frame("ScrollPane_Test");
+        Frame frame = new Frame("com.awt.ScrollPane_Test");
         //创建ScrollPane
         ScrollPane sp = new ScrollPane(ScrollPane.SCROLLBARS_ALWAYS);
         //在ScrollPane中添加内容

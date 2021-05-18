@@ -1,9 +1,11 @@
+package com.awt;
+
 import javax.swing.*;
 import java.awt.*;
 
 public class BoxLayout_Test2 {
     public static void main(String[] args) {
-        Frame frame = new Frame("BoxLayout_Test");
+        Frame frame = new Frame("com.awt.BoxLayout_Test");
         //创建水平排列Box容器
         Box hbox = Box.createHorizontalBox();
         //往当前容器中添加按钮

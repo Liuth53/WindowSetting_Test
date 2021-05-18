@@ -1,9 +1,11 @@
+package com.awt;
+
 import java.awt.*;
 
 public class Panel_Test {
     public static void main(String[] args) {
         //创建window对象
-        Frame frame = new Frame("Test Panel on Window");
+        Frame frame = new Frame("Test Panel on com.awt.Window");
         //创建panel对象
         Panel p =new Panel();
         //创建文本框和按钮放入panel

@@ -1,3 +1,5 @@
+package com.awt;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -6,7 +8,7 @@ import java.awt.event.WindowEvent;
 
 public class CardLayout_Test {
     public static void main(String[] args) {
-        Frame frame = new Frame("Test CardLayout on Window");
+        Frame frame = new Frame("Test CardLayout on com.awt.Window");
 
         //创建一个Panel，存储多张卡片
         Panel p1=new Panel();
